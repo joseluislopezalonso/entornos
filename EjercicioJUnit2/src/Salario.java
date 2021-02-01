@@ -56,7 +56,7 @@ public class Salario {
 		if (tipo.equals("vendedor")) {
 			salarioBase=1000;
 		}else {
-			if (tipo.equals("cliente")) {
+			if (tipo.equals("encargado")) {
 				salarioBase=1500;
 			} else {
 				System.out.println("no reconozco el tipo");
