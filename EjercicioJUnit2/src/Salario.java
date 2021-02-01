@@ -19,7 +19,8 @@ public class Salario {
 		}
 
 	public String toString() {
-		return("El salario bruto es "+calculaSalarioBruto(tipo, ventasMes, horasExtra)+" y el salario neto es "+calcularSalarioNeto(salarioBruto));
+		return ("El salario bruto es " + calculaSalarioBruto(tipo, ventasMes, horasExtra) + " y el salario neto es "
+				+ calcularSalarioNeto(salarioBruto));
 	}
 	
 	public String getTipo() {
